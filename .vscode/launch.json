@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1234",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "4week_end_train",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}4주차${pathSeparator}train.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd" : "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}4주차",
+            "args": []
+        }
+    ]
+}
