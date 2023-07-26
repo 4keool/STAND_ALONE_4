@@ -5,21 +5,33 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "1234",
+            "name": "5week",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
-        {
-            "name": "4week_end_train",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}4주차${pathSeparator}train.py",
+            "program": "${workspaceFolder}${pathSeparator}주중수업${pathSeparator}5주차${pathSeparator}train_debug2 make.py",
             "console": "integratedTerminal",
             "justMyCode": false,
-            "cwd" : "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}4주차",
+            "cwd" : "${workspaceFolder}${pathSeparator}주중수업${pathSeparator}5주차",
+            "args": []
+        },
+        {
+            "name": "5week_end",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}5주차${pathSeparator}inference make.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd" : "${workspaceFolder}${pathSeparator}주말수업${pathSeparator}5주차",
+            "args": []
+        },
+        {
+            "name": "4week_end_train2",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}${pathSeparator}주중수업${pathSeparator}4주차${pathSeparator}train_2.comment.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd" : "${workspaceFolder}${pathSeparator}주중수업${pathSeparator}4주차",
             "args": []
         }
     ]

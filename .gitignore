@@ -1,3 +1,14 @@
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+*.ckpt
+*.txt
+
+.vscode/
+라이브코드/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
